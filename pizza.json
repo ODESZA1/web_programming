@@ -1,0 +1,419 @@
+[{
+    "name": "Pizza Cathy Levine",
+    "price": "850.42 ₽",
+    "image": "https://cdn.papajohns.ru//images/catalog/thumbs/full/0952821ab81daadf49ddb224f28b5fd6.png",
+    "roster": [
+      "Ingridient 0",
+      "Ingridient 1",
+      "Ingridient 2",
+      "Ingridient 3",
+      "Ingridient 4",
+      "Ingridient 5"
+    ],
+    "additional": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "name": "Pizza Peck Harrington",
+    "price": "1482.87 ₽",
+    "image": "https://cdn.papajohns.ru//images/catalog/thumbs/full/95fd78d57e263ffb9f0a99dc02a4de31.png",
+    "roster": [
+      "Ingridient 0",
+      "Ingridient 1",
+      "Ingridient 2",
+      "Ingridient 3",
+      "Ingridient 4",
+      "Ingridient 5"
+    ],
+    "additional": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "name": "Pizza Norris Shepard",
+    "price": "570.97 ₽",
+    "image": "https://www.papajohns.ru/assets/1bd82c10221d2c72be611a0ec7d16f92.png",
+    "roster": [
+      "Ingridient 0",
+      "Ingridient 1",
+      "Ingridient 2",
+      "Ingridient 3",
+      "Ingridient 4",
+      "Ingridient 5"
+    ],
+    "additional": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "name": "Pizza Hallie Wong",
+    "price": "633.60 ₽",
+    "image": "https://www.papajohns.ru/assets/1bd82c10221d2c72be611a0ec7d16f92.png",
+    "roster": [
+      "Ingridient 0",
+      "Ingridient 1",
+      "Ingridient 2",
+      "Ingridient 3",
+      "Ingridient 4",
+      "Ingridient 5"
+    ],
+    "additional": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "name": "Pizza Joyce Zimmerman",
+    "price": "840.42 ₽",
+    "image": "https://cdn.papajohns.ru//images/catalog/thumbs/full/0f2791f53cc44d55d3efed13b69e28e6.png",
+    "roster": [
+      "Ingridient 0",
+      "Ingridient 1",
+      "Ingridient 2",
+      "Ingridient 3",
+      "Ingridient 4",
+      "Ingridient 5"
+    ],
+    "additional": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "name": "Pizza Norma Tate",
+    "price": "1305.18 ₽",
+    "image": "https://www.papajohns.ru/assets/09a0ddd32265a152e246e51f30c40a22.png",
+    "roster": [
+      "Ingridient 0",
+      "Ingridient 1",
+      "Ingridient 2",
+      "Ingridient 3",
+      "Ingridient 4",
+      "Ingridient 5"
+    ],
+    "additional": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "name": "Pizza Drake Richardson",
+    "price": "1301.16 ₽",
+    "image": "https://www.papajohns.ru/assets/0e457543af9236a2dbcdfff1ad88265f.png",
+    "roster": [
+      "Ingridient 0",
+      "Ingridient 1",
+      "Ingridient 2",
+      "Ingridient 3",
+      "Ingridient 4",
+      "Ingridient 5"
+    ],
+    "additional": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  }, {
+    "name": "Pizza Cathy Levine",
+    "price": "850.42 ₽",
+    "image": "https://cdn.papajohns.ru//images/catalog/thumbs/full/0952821ab81daadf49ddb224f28b5fd6.png",
+    "roster": [
+      "Ingridient 0",
+      "Ingridient 1",
+      "Ingridient 2",
+      "Ingridient 3",
+      "Ingridient 4",
+      "Ingridient 5"
+    ],
+    "additional": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "name": "Pizza Peck Harrington",
+    "price": "1482.87 ₽",
+    "image": "https://cdn.papajohns.ru//images/catalog/thumbs/full/95fd78d57e263ffb9f0a99dc02a4de31.png",
+    "roster": [
+      "Ingridient 0",
+      "Ingridient 1",
+      "Ingridient 2",
+      "Ingridient 3",
+      "Ingridient 4",
+      "Ingridient 5"
+    ],
+    "additional": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "name": "Pizza Norris Shepard",
+    "price": "570.97 ₽",
+    "image": "https://www.papajohns.ru/assets/1bd82c10221d2c72be611a0ec7d16f92.png",
+    "roster": [
+      "Ingridient 0",
+      "Ingridient 1",
+      "Ingridient 2",
+      "Ingridient 3",
+      "Ingridient 4",
+      "Ingridient 5"
+    ],
+    "additional": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "name": "Pizza Hallie Wong",
+    "price": "633.60 ₽",
+    "image": "https://www.papajohns.ru/assets/1bd82c10221d2c72be611a0ec7d16f92.png",
+    "roster": [
+      "Ingridient 0",
+      "Ingridient 1",
+      "Ingridient 2",
+      "Ingridient 3",
+      "Ingridient 4",
+      "Ingridient 5"
+    ],
+    "additional": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "name": "Pizza Joyce Zimmerman",
+    "price": "840.42 ₽",
+    "image": "https://cdn.papajohns.ru//images/catalog/thumbs/full/0f2791f53cc44d55d3efed13b69e28e6.png",
+    "roster": [
+      "Ingridient 0",
+      "Ingridient 1",
+      "Ingridient 2",
+      "Ingridient 3",
+      "Ingridient 4",
+      "Ingridient 5"
+    ],
+    "additional": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "name": "Pizza Norma Tate",
+    "price": "1305.18 ₽",
+    "image": "https://www.papajohns.ru/assets/09a0ddd32265a152e246e51f30c40a22.png",
+    "roster": [
+      "Ingridient 0",
+      "Ingridient 1",
+      "Ingridient 2",
+      "Ingridient 3",
+      "Ingridient 4",
+      "Ingridient 5"
+    ],
+    "additional": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "name": "Pizza Drake Richardson",
+    "price": "1301.16 ₽",
+    "image": "https://www.papajohns.ru/assets/0e457543af9236a2dbcdfff1ad88265f.png",
+    "roster": [
+      "Ingridient 0",
+      "Ingridient 1",
+      "Ingridient 2",
+      "Ingridient 3",
+      "Ingridient 4",
+      "Ingridient 5"
+    ],
+    "additional": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  }, {
+    "name": "Pizza Cathy Levine",
+    "price": "850.42 ₽",
+    "image": "https://cdn.papajohns.ru//images/catalog/thumbs/full/0952821ab81daadf49ddb224f28b5fd6.png",
+    "roster": [
+      "Ingridient 0",
+      "Ingridient 1",
+      "Ingridient 2",
+      "Ingridient 3",
+      "Ingridient 4",
+      "Ingridient 5"
+    ],
+    "additional": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "name": "Pizza Peck Harrington",
+    "price": "1482.87 ₽",
+    "image": "https://cdn.papajohns.ru//images/catalog/thumbs/full/95fd78d57e263ffb9f0a99dc02a4de31.png",
+    "roster": [
+      "Ingridient 0",
+      "Ingridient 1",
+      "Ingridient 2",
+      "Ingridient 3",
+      "Ingridient 4",
+      "Ingridient 5"
+    ],
+    "additional": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "name": "Pizza Norris Shepard",
+    "price": "570.97 ₽",
+    "image": "https://www.papajohns.ru/assets/1bd82c10221d2c72be611a0ec7d16f92.png",
+    "roster": [
+      "Ingridient 0",
+      "Ingridient 1",
+      "Ingridient 2",
+      "Ingridient 3",
+      "Ingridient 4",
+      "Ingridient 5"
+    ],
+    "additional": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "name": "Pizza Hallie Wong",
+    "price": "633.60 ₽",
+    "image": "https://www.papajohns.ru/assets/1bd82c10221d2c72be611a0ec7d16f92.png",
+    "roster": [
+      "Ingridient 0",
+      "Ingridient 1",
+      "Ingridient 2",
+      "Ingridient 3",
+      "Ingridient 4",
+      "Ingridient 5"
+    ],
+    "additional": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "name": "Pizza Joyce Zimmerman",
+    "price": "840.42 ₽",
+    "image": "https://cdn.papajohns.ru//images/catalog/thumbs/full/0f2791f53cc44d55d3efed13b69e28e6.png",
+    "roster": [
+      "Ingridient 0",
+      "Ingridient 1",
+      "Ingridient 2",
+      "Ingridient 3",
+      "Ingridient 4",
+      "Ingridient 5"
+    ],
+    "additional": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "name": "Pizza Norma Tate",
+    "price": "1305.18 ₽",
+    "image": "https://www.papajohns.ru/assets/09a0ddd32265a152e246e51f30c40a22.png",
+    "roster": [
+      "Ingridient 0",
+      "Ingridient 1",
+      "Ingridient 2",
+      "Ingridient 3",
+      "Ingridient 4",
+      "Ingridient 5"
+    ],
+    "additional": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  }
+]

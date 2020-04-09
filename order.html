@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Order</title>
+</head>
+<style>
+    img {
+        width: 250px;
+        border: 1px solid #cecece
+    }
+    
+    ul {
+        list-style-type: none;
+        width: 30%
+    }
+    
+    li {
+        padding: 5px;
+        border: 1px solid #cecece;
+        margin-top: -1px
+    }
+    
+    input {
+        display: block;
+        margin: 10px
+    }
+    
+    .hidden {
+        display: none
+    }
+</style>
+
+<body>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const body = document.querySelectorAll('body')[0];
+            const back = document.createElement('a');
+            back.innerText = '< back';
+            back.href = '/';
+            body.append(back);
+            let data = JSON.parse(DATA);
+            const h1 = document.createElement('h1'),
+                img = document.createElement('img'),
+                h2 = document.createElement('h2'),
+                ul = document.createElement('ul');
+            data.price = Number.parseInt(data.price.slice(0, -2));
+            const coeff = data.price / data.roster.length;
+            h1.innerHTML = `${data['name']} <span style="color:blue">${data['price']} ₽</span>`;
+            img.src = data.image;
+            body.append(h1);
+            body.append(img);
+            body.append(h2);
+            h2.innerText = 'Ingridients';
+            body.append(ul);
+            for (var i = 0; i < data.roster.length; i++) {
+                const li = document.createElement('li');
+                const incI = document.createElement('button'),
+                    decI = document.createElement('button'),
+                    span = document.createElement('span');
+                incI.setAttribute('data-id', i);
+                decI.setAttribute('data-id', i);
+                incI.innerHTML = '+';
+                decI.innerHTML = '-';
+                decI.addEventListener('click', (e) => {
+                    const id = e.target.getAttribute('data-id');
+                    const span = document.querySelectorAll('span[data-id=\"' + id + '\"]')[0];
+                    const h1_span = document.querySelectorAll('h1 span')[0];
+                    if (data.additional[id] > 1) {
+                        data.additional[id]--;
+                        span.innerText = data.additional[id];
+                        data.price -= coeff;
+                        hidden_data.setAttribute('value', JSON.stringify(data));
+                        h1_span.innerText = `${(Math.round(data['price'] * 100) / 100).toFixed(2)} ₽`
+                    }
+                });
+                incI.addEventListener('click', (e) => {
+                    const id = e.target.getAttribute('data-id');
+                    const span = document.querySelectorAll('span[data-id=\"' + id + '\"]')[0];
+                    const h1_span = document.querySelectorAll('h1 span')[0];
+                    data.additional[id]++;
+                    span.innerText = data.additional[id];
+                    data.price += coeff;
+                    hidden_data.setAttribute('value', JSON.stringify(data));
+                    h1_span.innerText = `${(Math.round(data['price'] * 100) / 100).toFixed(2)} ₽`
+                });
+                li.innerHTML = `<span style="margin-right:5px">${data['roster'][i]}</span>`;
+                span.innerHTML = `x<span data-id="${i}">${data['additional'][i]}</span>`;
+                li.append(incI);
+                li.append(span);
+                li.append(decI);
+                ul.append(li)
+            }
+            const form = document.createElement('form');
+            const h2_call = document.createElement('h2');
+            const telephone = document.createElement('input');
+            const name = document.createElement('input');
+            const save = document.createElement('input');
+            const hidden_data = document.createElement('input');
+            telephone.setAttribute('type', 'text');
+            telephone.setAttribute('placeholder', 'telephone');
+            telephone.setAttribute('required', '');
+            telephone.setAttribute('name', 'telephone');
+            name.setAttribute('type', 'text');
+            name.setAttribute('placeholder', 'your name');
+            name.setAttribute('required', '');
+            name.setAttribute('name', 'name');
+            save.setAttribute('type', 'submit');
+            save.value = 'ok';
+            form.setAttribute('method', 'POST');
+            form.setAttribute('action', '/next');
+            body.append(form);
+            h2_call.innerText = 'Save order';
+            form.append(h2_call);
+            form.append(name);
+            form.append(telephone);
+            form.append(hidden_data);
+            hidden_data.setAttribute('class', 'hidden');
+            hidden_data.setAttribute('name', 'object');
+            hidden_data.setAttribute('value', JSON.stringify(data));
+            form.append(save)
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>pizza shop</title>
+</head>
+<style>
+    html,
+    body {
+        margin: 0
+    }
+    
+    div {
+        width: calc( 20vw - 2px );
+        height: calc( 25vh - 2px );
+        border: 1px solid transparent;
+        float: left;
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+    
+    div:nth-child(2n+1) {
+        background: #054e54
+    }
+    
+    div:nth-child(2n) {
+        background: #d8d4d3
+    }
+    
+    div:hover {
+        transition: .75s;
+        background: #000;
+        cursor: pointer;
+        border: 1px solid #cecece
+    }
+    
+    span {
+        width: 100%;
+        height: 100%;
+        border: 1px solid #cecece
+    }
+    
+    input {
+        display: none
+    }
+</style>
+
+<body>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('http://localhost:8080/get-pizza-json').then(res => res.json()).then(data => {
+                const body = document.querySelectorAll('body')[0];
+                const form = document.createElement('form');
+                const input = document.createElement('input'),
+                    button = document.createElement('input');
+                form.setAttribute('method', 'POST');
+                form.setAttribute('action', '/order');
+                input.setAttribute('name', 'data');
+                input.setAttribute('type', 'text');
+                button.setAttribute('type', 'submit');
+                body.append(form);
+                for (var i = 0; i < 20; i++) {
+                    let div = document.createElement('div');
+                    let span = document.createElement('span');
+                    span.style = `background-image: url(${data[i]["image"]}); background-size: cover`;
+                    span.setAttribute('data-id', i);
+                    div.append(span);
+                    form.append(div);
+                    span.addEventListener('click', (e) => {
+                        input.setAttribute('value', JSON.stringify(data[e.target.getAttribute('data-id')]));
+                        button.click()
+                    })
+                }
+                form.append(input);
+                form.append(button)
+            })
+        });
+    </script>
+</body>
+
+</html>
